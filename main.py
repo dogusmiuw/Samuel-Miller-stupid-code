@@ -1,5 +1,4 @@
 
-
 file = open("test.py", "w")
 
 file.write("print('THE NUMBER IS ODD OR EVEN?')\n")
@@ -13,22 +12,3 @@ for i in range(2, 100000):
         file.write("elif number == " + str(i) + ": print('number is even')\n")
     else:
         file.write("elif number == " + str(i) + ": print('number is odd')\n")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
